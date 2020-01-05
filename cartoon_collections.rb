@@ -47,3 +47,8 @@ end
 def long_planeteer_calls(array)
   array.any? {|element| element.length > 4}
 end
+
+def find_the_cheese(array)
+  cheese_array = []
+  array.include?(cheese_array)
+end
