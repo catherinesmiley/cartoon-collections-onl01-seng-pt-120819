@@ -41,5 +41,5 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)  
-  array.each {|element| 
+  array.each.collect {|element| element.
 end
