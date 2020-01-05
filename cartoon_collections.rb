@@ -49,6 +49,5 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(array)
-  cheese_array = []
-  array.include?(cheese_array)
+  array.find {|cheese| 
 end
